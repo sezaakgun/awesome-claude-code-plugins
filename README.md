@@ -366,6 +366,7 @@ Install or disable them dynamically with the `/plugin` command — enabling you 
 - [web-security-guard](./plugins/web-security-guard)
 - [supply-chain-gate](./plugins/supply-chain-gate)
 - [agent-safety-preflight](./plugins/agent-safety-preflight)
+- [yolonot](https://github.com/sezaakgun/yolonot) - Command guardrails, auto-approve hooks, and permission firewall for Claude Code and 23 other coding agents. Combines git-tracked `.yolonot` rules (`<1ms`), a sub-2µs Go Bash AST parser (`mvdan.cc/sh`), script-content inspection, and local/cloud LLM judges. Install: `brew install sezaakgun/tap/yolonot && yolonot setup`
 
 ### MCP Servers
 - [AccInt](https://github.com/maxbaluev/accreted-intelligence) — Local-first Work Model MCP server and Claude Code/Codex/OpenCode plugin. Tools: `acc_retrieve`, `acc_act`; official registry `io.github.maxbaluev/accint`.
